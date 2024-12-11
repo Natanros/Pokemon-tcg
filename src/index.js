@@ -7,11 +7,11 @@ import AllCards from "./Allcards";
 
 const app = createBrowserRouter([
   {
-    path: "https://natanros-pokemon-tcg.netlify.app/",
+    path: "/",
     element: <App />,
   },
   {
-    path: "https://natanros-pokemon-tcg.netlify.app/all-cards",
+    path: "/all-cards",
     element: <AllCards />,
   },
 ]);

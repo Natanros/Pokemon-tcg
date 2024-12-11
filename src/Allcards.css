@@ -10,6 +10,12 @@
     font-family: Poppins, Arial, Helvetica, sans-serif;
     height: 90vh;
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container-all-cards::-webkit-scrollbar {
+    display: none;
 }
 
 .container-all-cards img {
